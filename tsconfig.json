@@ -15,7 +15,20 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths":{
+      "@core/classes/*": ["src/app/core/classes/*"],
+      "@core/customValidators/*": ["src/app/core/custom-validators/*"],
+      "@core/directives/*": ["src/app/core/directives/*"],
+      "@core/enums/*": ["src/app/core/enums/*"],
+      "@core/guards/*": ["src/app/core/guards/*"],
+      "@core/interceptors/*": ["src/app/core/interceptors/*"],
+      "@core/interfaces/*": ["src/app/core/interfaces/*"],
+      "@core/pipes/*": ["src/app/core/pipes/*"],
+      "@core/providers/*": ["src/app/core/providers/*"],
+      "@core/services/*": ["src/app/core/services/*"],
+      "@core/types/*": ["src/app/core/types/*"],
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false
